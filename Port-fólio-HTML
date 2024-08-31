@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfólio de Danielle</title>
+	<link rel="stylesheet" href="styles.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#home">Início</a></li>
+				<li><a href="#about">Sobre Mim</a></li>
+				<li><a href="#projects">Portfólio</a></li>
+				<li><a href="#services">Serviços</a></li>
+				<li><a href="#testimonials">Testemunhos</a></li>
+				<li><a href="#blog">Blog</a></li>
+				<li><a href="#contact">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="home">
+		<div class="container">
+			<h1>Danielle Nunes Pereira</h1>
+			<h2>Criadora de site</h2>
+			<p>Bem-vindo ao meu portfólio! me chamo Danielle e estou aprendendo a criar site pelo curso do TecInclusão, ainda sou novata na área mas estou sujeita a sempre querer aprender mais. </p>
+			<img src="path/to/professional-image.jpg" alt="Foto Profissional" class="profile-image">
+        </div>
+	</section>
+
+	<section id="about">
+		<div class="container">
+			<h2>Sobre Mim</h2>
+			<div class="about-content">
+				<div class="about-section">
+					<h3>Histórico Profissional</h3>
+					<p>Com uma carreira em desenvolvimento de sistemas que começou há X anos, trabalhei em diversos
+						projetos utilizando tecnologias como HTML, CSS, JavaScript, e frameworks modernos. Meu foco é
+						sempre entregar soluções eficientes e escaláveis.</p>
+				</div>
+				<div class="about-section">
+					<h3>Habilidades Técnicas</h3>
+					<ul>
+						<li><strong>Desenvolvimento Front-End:</strong> HTML, CSS, JavaScript, React, Angular</li>
+						<li><strong>Desenvolvimento Back-End:</strong> Node.js, Python, Ruby on Rails</li>
+						<li><strong>DevOps:</strong> Docker, Kubernetes, CI/CD</li>
+					</ul>
+				</div>
+				<div class="about-section">
+					<h3>Certificações</h3>
+					<ul>
+						<li>Certificação em Desenvolvimento Web - [Instituição]</li>
+						<li>Certificação em DevOps - [Instituição]</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="projects">
+		<div class="container">
+			<h2>Portfólio de Projetos</h2>
+			<div class="project">
+				<h3>Projeto 1: Olá Mundo</h3>
+				<p><strong>Descrição:</strong> Primeiro conteúdo na qual tive interação com a programação.</p>
+				<p><strong>Tecnologias Utilizadas:</strong> HTML, CSS, JavaScript.</p>
+        <p><strong>Site utilizado:</strong> JSitor.</p>
+				<img src="path/to/project1-image.jpg" alt="Projeto 1" class="project-image">
+				<a href="https://github.com/Millennium491/Millennium491" target="_blank">Ver no GitHub</a>
+			</div>
+			<div class="project">
+				<h3>Projeto 2: App de fast Food (Pizza Express)</h3>
+				<p><strong>Descrição:</strong> Site criado em formato de Fast Food com objetivo de aprender a criar um site de forma pratica e simples.</p>
+				<p><strong>Tecnologias Utilizadas:</strong> HTML, CSS, JavaScript.</p>
+				<p><strong>Sites utilizados:</strong> JSitor e Jsiddle.</p>
+				<img src="path/to/project2-image.jpg" alt="Projeto 2" class="project-image">
+				<a href="https://github.com/Millennium491/Millennium491" target="_blank">Ver no GitHub</a>
+			</div>
+			<a href="#more-projects" class="more-projects">Ver Mais Projetos</a>
+		</div>
+	</section>
+
+	<section id="services">
+		<div class="container">
+			<h2>Serviços</h2>
+			<div class="service">
+				<h3>Desenvolvimento Customizado</h3>
+				<p>Ofereço desenvolvimento de software sob medida, criação de aplicativos web e integração de sistemas
+					para atender às suas necessidades específicas.</p>
+			</div>
+			<div class="service">
+				<h3>Consultoria Técnica</h3>
+				<p>Consultoria em arquitetura de software, otimização de performance e melhores práticas para garantir
+					que seus sistemas sejam eficientes e escaláveis.</p>
+			</div>
+			<div class="service">
+				<h3>Manutenção e Suporte</h3>
+				<p>Forneço suporte contínuo e manutenção para sistemas já implementados, garantindo que permaneçam
+					atualizados e funcionais.</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="testimonials">
+		<div class="container">
+			<h2>Testemunhos</h2>
+			<div class="testimonial">
+				<p><strong>João Silva, CTO da Empresa XYZ:</strong> "O trabalho realizado foi excepcional, superando
+					nossas expectativas. A comunicação foi excelente e o projeto entregue no prazo."</p>
+			</div>
+			<div class="testimonial">
+				<p><strong>Maria Oliveira, Gerente de Projeto na ABC Ltda:</strong> "A expertise e dedicação foram
+					evidentes em todas as fases do projeto. Recomendo fortemente!"</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="blog">
+		<div class="container">
+			<h2>Blog e Publicações</h2>
+			<div class="blog-post">
+				<h3><a href="link-para-artigo1" target="_blank">Artigo Técnico 1</a></h3>
+				<p>Uma breve descrição do artigo técnico ou tutorial que você publicou, abordando tendências de
+					tecnologia ou metodologias ágeis.</p>
+			</div>
+			<div class="blog-post">
+				<h3><a href="link-para-artigo2" target="_blank">Contribuição Open Source</a></h3>
+				<p>Resumo das suas contribuições para projetos open source, com links para os repositórios relevantes.
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact">
+		<div class="container">
+			<h2>Contato</h2>
+			<form id="formContato">
+				<label for="nome">Nome:</label>
+				<input type="text" id="nome" name="nome" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="mensagem">Mensagem:</label>
+				<textarea id="mensagem" name="mensagem" required></textarea>
+				<button type="submit">Enviar</button>
+			</form>
+			<div class="contact-info">
+				<p><strong>Email:</strong> seuemail@example.com</p>
+				<p><strong>Telefone:</strong> (63) 98112-5706</p>
+				<p><strong>Redes Sociais:</strong></p>
+				<p>
+					<a href="https://www.linkedin.com/in/seu-perfil" target="_blank">LinkedIn</a> |
+					<a href="https://github.com/Millennium491/Millennium491" target="_blank">GitHub</a>
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<ul class="footer-links">
+				<li><a href="#home">Início</a></li>
+				<li><a href="#about">Sobre Mim</a></li>
+				<li><a href="#projects">Portfólio</a></li>
+				<li><a href="#services">Serviços</a></li>
+				<li><a href="#testimonials">Testemunhos</a></li>
+				<li><a href="#blog">Blog</a></li>
+				<li><a href="#contact">Contato</a></li>
+			</ul>
+			<p>&copy; 2024 [Seu Nome]. Todos os direitos reservados.</p>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
