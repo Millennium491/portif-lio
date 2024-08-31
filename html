@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Meu Portfólio</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<h1>Meu Portfólio</h1>
+			<ul>
+				<li><a href="#home">Início</a></li>
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="#projetos">Projetos</a></li>
+				<li><a href="#contato">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="home">
+		<div class="home-content">
+			<img src="imagem-perfil.jpg" alt="Imagem Profissional" class="imagem-perfil">
+			<h2>Nome do Profissional</h2>
+			<h3>Desenvolvedor de Sistemas</h3>
+			<p>Olá! Sou um desenvolvedor de sistemas com expertise em tecnologias modernas e uma paixão por criar
+				soluções inovadoras. Estou em busca de oportunidades desafiadoras para aplicar minhas habilidades e
+				crescer profissionalmente.</p>
+		</div>
+	</section>
+
+	<section id="sobre">
+		<h2>Sobre Mim</h2>
+		<div class="sobre-content">
+			<div class="historico">
+				<h3>Histórico Profissional</h3>
+				<p>Com mais de X anos de experiência no desenvolvimento de sistemas, tenho trabalhado com diversas
+					tecnologias e metodologias. Minha trajetória inclui o domínio de linguagens como JavaScript, Python,
+					e Java, além de frameworks como React e Django. Tenho experiência em metodologias ágeis como Scrum e
+					Kanban, e sou apaixonado por criar soluções eficientes e escaláveis.</p>
+			</div>
+			<div class="habilidades">
+				<h3>Habilidades Técnicas</h3>
+				<div class="habilidade">
+					<h4>Desenvolvimento Front-End</h4>
+					<ul>
+						<li>HTML, CSS, JavaScript</li>
+						<li>React, Vue.js</li>
+						<li>Design Responsivo</li>
+					</ul>
+				</div>
+				<div class="habilidade">
+					<h4>Desenvolvimento Back-End</h4>
+					<ul>
+						<li>Node.js, Express</li>
+						<li>Python, Django</li>
+						<li>APIs RESTful</li>
+					</ul>
+				</div>
+				<div class="habilidade">
+					<h4>DevOps</h4>
+					<ul>
+						<li>Docker, Kubernetes</li>
+						<li>CI/CD</li>
+						<li>AWS, Azure</li>
+					</ul>
+				</div>
+			</div>
+			<div class="certificacoes">
+				<h3>Certificações</h3>
+				<ul>
+					<li>Certificação em Desenvolvimento Web Full Stack - [Instituição]</li>
+					<li>Certificação em AWS Solutions Architect - [Instituição]</li>
+					<li>Certificação em Scrum Master - [Instituição]</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section id="projetos">
+		<h2>Portfólio de Projetos</h2>
+		<div class="projeto">
+			<h3>Projeto 1: Nome do Projeto</h3>
+			<p><strong>Descrição:</strong> Resumo do projeto, objetivos e desafios enfrentados.</p>
+			<p><strong>Tecnologias Utilizadas:</strong> Lista das ferramentas, linguagens e frameworks utilizados.</p>
+			<p><strong>Resultados:</strong> Impacto do projeto, KPIs alcançados, ou feedback do cliente.</p>
+			<p><strong>Imagens/Links:</strong> Screenshots, diagramas ou links para demos ou repositórios (GitHub, por
+				exemplo).</p>
+		</div>
+		<!-- Adicione mais projetos conforme necessário -->
+	</section>
+
+	<section id="contato">
+		<h2>Contato</h2>
+		<form id="contatoForm">
+			<label for="nome">Nome:</label>
+			<input type="text" id="nome" name="nome" required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="mensagem">Mensagem:</label>
+			<textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+			<button type="submit">Enviar</button>
+		</form>
+	</section>
+
+	<footer>
+		<p>&copy; 2024 Meu Portfólio. Todos os direitos reservados.</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
