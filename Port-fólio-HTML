@@ -29,7 +29,8 @@
 		<div class="container">
 			<h1>Danielle Nunes Pereira</h1>
 			<h2>Criadora de site</h2>
-			<p>Bem-vindo ao meu portfólio! me chamo Danielle e estou aprendendo a criar site pelo curso do TecInclusão, ainda sou novata na área mas estou sujeita a sempre querer aprender mais. </p>
+			<p>Bem-vindo ao meu portfólio! me chamo Danielle e estou aprendendo a criar site pelo curso do TecInclusão,
+				ainda sou novata na área mas estou sujeita a sempre querer aprender mais. </p>
 			<img src="path/to/professional-image.jpg" alt="Foto Profissional" class="profile-image">
         </div>
 	</section>
@@ -70,13 +71,14 @@
 				<h3>Projeto 1: Olá Mundo</h3>
 				<p><strong>Descrição:</strong> Primeiro conteúdo na qual tive interação com a programação.</p>
 				<p><strong>Tecnologias Utilizadas:</strong> HTML, CSS, JavaScript.</p>
-        <p><strong>Site utilizado:</strong> JSitor.</p>
+				<p><strong>Site utilizado:</strong> JSitor.</p>
 				<img src="path/to/project1-image.jpg" alt="Projeto 1" class="project-image">
 				<a href="https://github.com/Millennium491/Millennium491" target="_blank">Ver no GitHub</a>
 			</div>
 			<div class="project">
 				<h3>Projeto 2: App de fast Food (Pizza Express)</h3>
-				<p><strong>Descrição:</strong> Site criado em formato de Fast Food com objetivo de aprender a criar um site de forma pratica e simples.</p>
+				<p><strong>Descrição:</strong> Site criado em formato de Fast Food com objetivo de aprender a criar um
+					site de forma pratica e simples.</p>
 				<p><strong>Tecnologias Utilizadas:</strong> HTML, CSS, JavaScript.</p>
 				<p><strong>Sites utilizados:</strong> JSitor e Jsiddle.</p>
 				<img src="path/to/project2-image.jpg" alt="Projeto 2" class="project-image">
@@ -88,9 +90,9 @@
 
 	<section id="services">
 		<div class="container">
-			<h2>Serviços</h2>
+			<h2>Certificados</h2>
 			<div class="service">
-				<h3>Desenvolvimento Customizado</h3>
+				<h3>Informática</h3>
 				<p>Ofereço desenvolvimento de software sob medida, criação de aplicativos web e integração de sistemas
 					para atender às suas necessidades específicas.</p>
 			</div>
@@ -123,9 +125,10 @@
 
 	<section id="blog">
 		<div class="container">
-			<h2>Blog e Publicações</h2>
+			<h2>Complementos</h2>
 			<div class="blog-post">
-				<h3><a href="https://youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ?si=o63IXme3vDuJK2rq" target="_blank">Curso em vídeo</a></h3>
+				<h3><a href="https://youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ?si=o63IXme3vDuJK2rq"
+						target="_blank">Curso em vídeo</a></h3>
 				<p>Videos aulas de reforço para aprender mais sobre programar (indicado pelo professor Luciano).</p>
 			</div>
 			<div class="blog-post">
