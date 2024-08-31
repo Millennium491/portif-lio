@@ -125,9 +125,8 @@
 		<div class="container">
 			<h2>Blog e Publicações</h2>
 			<div class="blog-post">
-				<h3><a href="link-para-artigo1" target="_blank">Artigo Técnico 1</a></h3>
-				<p>Uma breve descrição do artigo técnico ou tutorial que você publicou, abordando tendências de
-					tecnologia ou metodologias ágeis.</p>
+				<h3><a href="https://youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ?si=o63IXme3vDuJK2rq" target="_blank">Curso em vídeo</a></h3>
+				<p>Videos aulas de reforço para aprender mais sobre programar (indicado pelo professor Luciano).</p>
 			</div>
 			<div class="blog-post">
 				<h3><a href="link-para-artigo2" target="_blank">Contribuição Open Source</a></h3>
@@ -172,7 +171,7 @@
 				<li><a href="#blog">Blog</a></li>
 				<li><a href="#contact">Contato</a></li>
 			</ul>
-			<p>&copy; 2024 [Seu Nome]. Todos os direitos reservados.</p>
+			<p>&copy; 2024 Danielle Nunes Pereira. Todos os direitos reservados.</p>
 		</div>
 	</footer>
 
